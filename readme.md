@@ -1,5 +1,5 @@
-          #Craft Wings
-The project is an Online platform for
+# Craft Wings
+**The project is an Online platform for
 selling handicraft ,Traditional,paintings and
 wooden products by Auction method.And the
 customer can buy their favorite products from
@@ -9,4 +9,4 @@ customer who give more money .
 This Online Plateform helps individuals who
 make a variety of handicraft items and gives them
 an opportunity to sell their products while showing
-their talent to the world.
+their talent to the world.**
