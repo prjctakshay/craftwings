@@ -2,7 +2,8 @@
     session_start();
     require 'check_if_added.php';
     //require 'bid_last.php'
-    $today=date("y-m-d");
+   
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -26,7 +27,7 @@
 
 <body>
    <div>
-      <?php
+      <?php  
                 require 'header.php';
             ?>
       <div class="container">
@@ -45,7 +46,7 @@
                      <div class="caption">
                         <h3>Indian Art Women painting</h3>
                         <p> <?php
-                                           echo "End Date : 04-07-2020";
+                                           echo "End Date : 04-04-2021";
                            ?>
                         </p>
                         <?php if(!isset($_SESSION['email'])){  ?>
@@ -53,7 +54,7 @@
                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Bid Now</a></p>
                         <?php 
                         }
-                        elseif(date("y-m-d")>"20-02-04"){?>
+                        elseif(date("y-m-d")>"21-04-04"){?>
                         <!--check if bid date ended-->
                         <a href="#" class=btn btn-block btn-success disabled>date ended</a>
                         <?php }
@@ -62,7 +63,7 @@
                            <form action="bid_last.php" method="post" name="placebid">
 
                               <input type="hidden" id="item_name" name="item_name" value="Indian Art Women painting">
-                              <input type="hidden" id="date" name="end_date" value="04-02-2020">
+                              <input type="hidden" id="date" name="end_date" value="04-04-2021">
                               <input type="number" class="form-control" id="bid_amount" name="bid_amount" value="" placeholder="Your Bid" required>
                               <input type="submit" role="button" class="btn btn-primary btn-block" value="Place Bid" name="Cochin palace Door" class="btn amado-btn w-100">
                               
@@ -130,7 +131,7 @@
                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Bid Now</a></p>
                         <?php 
                         }
-                        elseif($today>"28-02-20"){?>
+                        elseif(date("y-m-d")>"21-02-28"){?>
                         <!--check if bid date ended-->
                         <a href="#" class=btn btn-block btn-success disabled>date ended</a>
                         <?php }
@@ -168,7 +169,7 @@
                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Bid Now</a></p>
                         <?php 
                         }
-                        elseif($today>"20-09-25"){?>
+                        elseif(date("y-m-d")>"20-09-25"){?>
                         <!--check if bid date ended-->
                         <a href="#" class=btn btn-block btn-success disabled>date ended</a>
                         <?php }
@@ -208,7 +209,7 @@
                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Bid Now</a></p>
                         <?php 
                         }
-                        elseif($today>"20-02-05"){?>
+                        elseif(date("y-m-d")>"20-02-05"){?>
                         <!--check if bid date ended-->
                         <a href="#" class=btn btn-block btn-success disabled>date ended</a>
                         <?php }
@@ -246,7 +247,7 @@
                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Bid Now</a></p>
                         <?php 
                         }
-                        elseif($today>("20-02-20")){?>
+                        elseif(date("y-m-d")>("20-02-20")){?>
                         <!--check if bid date ended-->
                         <a href="#" class=btn btn-block btn-success disabled>date ended</a>
                         <?php }
@@ -284,7 +285,7 @@
                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Bid Now</a></p>
                         <?php 
                         }
-                        elseif($today>"20-02-20"){?>
+                        elseif(date("y-m-d")>"20-02-20"){?>
                         <!--check if bid date ended-->
                         <a href="#" class=btn btn-block btn-success disabled>date ended</a>
                         <?php }
@@ -322,7 +323,7 @@
                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Bid Now</a></p>
                         <?php 
                         }
-                        elseif($today>"20-09-30"){?>
+                        elseif(date("y-m-d")>"20-09-30"){?>
                         <!--check if bid date ended-->
                         <a href="#" class=btn btn-block btn-success disabled>date ended</a>
                         <?php }
@@ -362,7 +363,7 @@
                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Bid Now</a></p>
                         <?php 
                         }
-                        elseif($today>"20-02-24"){?>
+                        elseif(date("y-m-d")>"20-02-24"){?>
                         <!--check if bid date ended-->
                         <a href="#" class=btn btn-block btn-success disabled>date ended</a>
                         <?php }
@@ -400,7 +401,7 @@
                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Bid Now</a></p>
                         <?php 
                         }
-                        elseif($today>"20-02-23"){?>
+                        elseif(date("y-m-d")>"20-02-23"){?>
                         <!--check if bid date ended-->
                         <a href="#" class=btn btn-block btn-success disabled>date ended</a>
                         <?php }
@@ -438,7 +439,7 @@
                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Bid Now</a></p>
                         <?php 
                         }
-                        elseif($today>"20-02-20"){?>
+                        elseif(date("y-m-d")>"20-02-20"){?>
                         <!--check if bid date ended-->
                         <a href="#" class=btn btn-block btn-success disabled>date ended</a>
                         <?php }
@@ -476,7 +477,7 @@
                         <p><a href="login.php" role="button" class="btn btn-primary btn-block">Bid Now</a></p>
                         <?php 
                         }
-                        elseif($today>"20-09-28"){?>
+                        elseif(date("y-m-d")>"20-09-28"){?>
                         <!--check if bid date ended-->
                         <a href="#" class=btn btn-block btn-success disabled>date ended</a>
                         <?php }
