@@ -14,7 +14,7 @@ $bid_amount=$_POST['bid_amount'];
 echo "$bid_amount";
 $end_date=$_POST['end_date'];
 echo "$end_date";
-$end_date="06-05-20";
+// $end_date="06-05-20";
 $cur_date=date("d-m-y");
 /*if ($cur_date>$end_date) {
 	# code...
